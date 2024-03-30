@@ -1,0 +1,12 @@
+.search_icon {
+  all: unset;
+  align-items: center;
+  border-radius: 32px;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  height: 32px;
+  justify-content: center;
+  padding: 0;
+  width: 32px;
+}/*# sourceMappingURL=searchIcon.module.css.map */
