@@ -8,6 +8,7 @@
 .container {
   padding: 0 48px;
   width: 100%;
+  max-width: 1800px;
 }
 
 @font-face {
