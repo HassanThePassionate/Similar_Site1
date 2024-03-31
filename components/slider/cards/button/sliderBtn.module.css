@@ -1,0 +1,39 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+.buttons button {
+  align-items: center;
+  aspect-ratio: 1/1;
+  background-color: var(--btn-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-65%);
+  z-index: 15;
+}
+.buttons button:last-of-type {
+  left: 97.5%;
+}
+.buttons svg {
+  fill: var(--primary-color);
+}
+.buttons button:hover {
+  background-color: #092d97;
+}
+
+@media screen and (max-width: 600px) {
+  .buttons {
+    margin-left: auto;
+  }
+}/*# sourceMappingURL=sliderBtn.module.css.map */

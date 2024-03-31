@@ -1,1 +1,6 @@
-/*# sourceMappingURL=variable.css.map */
+:root {
+  --light-color: #ffff;
+  --dark-color: #0000;
+  --border-color: #e7e7e9;
+  --btn-color: #1f51e5;
+}

@@ -1,0 +1,14 @@
+.navbar {
+  align-items: center;
+  background-color: var(--global-header-background-color, #fff);
+  border-bottom: 1px solid var(--global-header-border-bottom, #e7e7e9);
+  display: grid;
+  gap: 32px;
+  grid-template-columns: minmax(0, max-content) minmax(0, auto) minmax(0, max-content);
+  min-height: 80px;
+  padding: 0 16px;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}/*# sourceMappingURL=Navbar.module.css.map */

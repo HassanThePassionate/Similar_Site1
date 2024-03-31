@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "source_sans";
+}
 .container {
-  margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 48px;
   width: 100%;
+}
+
+@font-face {
+  font-family: "source_sans";
+  src: url("../fonts/source_sans/SourceSansPro-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }

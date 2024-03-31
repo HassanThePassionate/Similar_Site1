@@ -1,1 +1,11 @@
-/*# sourceMappingURL=menu.module.css.map */
+.nav_list li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.2s ease;
+}
+.nav_list li a:hover {
+  border-bottom: 4px solid var(--btn-color);
+}/*# sourceMappingURL=menu.module.css.map */

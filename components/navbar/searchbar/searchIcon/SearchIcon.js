@@ -1,8 +1,10 @@
 import React from "react";
 import style from "./searchIcon.module.css";
-const SearchIcon = () => {
+const SearchIcon = ({ input }) => {
   return (
-    <button className={style.search_icon}>
+    <button
+      className={`${style.search_icon} ${input ? style.white : style.blue}`}
+    >
       <svg
         class="lucide lucide-search"
         xmlns="http://www.w3.org/2000/svg"

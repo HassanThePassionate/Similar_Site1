@@ -1,1 +1,28 @@
-/*# sourceMappingURL=tab.module.css.map */
+.tab {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  min-height: 36px;
+  padding: 0px 16px 0px 12px;
+  transition: all 0.3s ease 0s;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.tab:hover {
+  outline: none;
+  box-shadow: none;
+  background-color: rgb(241, 243, 244);
+  border: none;
+}
+
+.tab_text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 8px;
+}/*# sourceMappingURL=tab.module.css.map */
