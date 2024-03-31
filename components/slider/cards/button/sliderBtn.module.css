@@ -26,7 +26,7 @@
   left: 97.5%;
 }
 .buttons svg {
-  fill: var(--primary-color);
+  fill: var(--light-color);
 }
 .buttons button:hover {
   background-color: #092d97;
