@@ -3,18 +3,24 @@
 @tailwind utilities;
 
 * {
-  font-family: "source_sans";
+  font-family: "google_sans";
 }
 .container {
-  padding: 0 16px;
+  padding: 0 64px;
   width: 100%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1380px;
 }
 
 @font-face {
   font-family: "source_sans";
   src: url("../fonts/source_sans/SourceSansPro-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "google_sans";
+  src: url("../fonts/Google_sans/ProductSans-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
