@@ -30,7 +30,7 @@ const Cards = () => {
           navigation={{ nextEl: "#next", prevEl: "#prev" }}
           modules={[Navigation]}
           className="mySwiper"
-          style={{ padding: "20px 10px" }}
+          style={{ padding: "20px" }}
         >
           <div className={style.cards}>
             {[...Array(10)].map((a, i) => (
