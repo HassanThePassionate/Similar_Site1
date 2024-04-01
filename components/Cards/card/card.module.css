@@ -7,6 +7,7 @@
   flex-direction: column;
   cursor: pointer;
   color: #202124;
+  transition: all 0.3s ease;
 }
 .card .icon {
   margin-bottom: 20px;
@@ -53,7 +54,7 @@
 }
 
 .card:hover {
-  box-shadow: var(0 14px 25px 0 rgba(60, 64, 67, 0.08), 0 4px 13px 0 rgba(60, 64, 67, 0.12));
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .card:hover .btn button {
   background-color: #202124;
