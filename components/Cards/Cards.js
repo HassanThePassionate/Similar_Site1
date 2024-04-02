@@ -12,9 +12,11 @@ const Cards = () => {
     <div className={style.wrapper}>
       <div className="container">
         <div className="flex items-center justify-between mt-[40px]">
-          <div>
-            <h2 className=" text-2xl font-semibold">Google Play Console</h2>
-            <p className="mt-[10px]">
+          <div className="w-[50%]">
+            <h2 className=" text-[40px] tracking-[0.5px] leading-[44px] font-semibold mb-[16px]">
+              Google Play Console
+            </h2>
+            <p className="mt-[10px] text-base tracking-[0.5px] font-normal ">
               Troubleshoot before launch, ensure technical performance, maximize
               your reach, and more with dozens of built-in features.
             </p>
