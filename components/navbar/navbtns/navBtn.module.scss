@@ -1,18 +1,23 @@
 .nav_btns{
     align-items: center;
     display: flex;
-    gap: 10px;
-    .nav_btn{
-        background-color: var(--light-color);
-        border: 1px solid var(--btn-color);
-        border-radius: 100px;
-        color: var(--btn-color);
-        padding: 6px 24px;
-    }
-    .nav_btn:last-of-type{
-        background-color: var(--btn-color);
-        color: var(--light-color);
-    }
-
+    justify-content: center;
+    height: 48px;
+    padding: 12px 24px;
+    background-color: #202122;
+    color: #fff;
+border-radius: 30px;
+border: 1px solid #202122 ;
+transition : .5s cubic-bezier(0.1, 0.7, 0.6, 0.9);
 }
-
+.nav_btns:hover {
+    border: 1px solid #202122 ;
+    color: #202122;
+    background-color: #fff;
+    .icon{
+        color: #000;
+    }
+}
+.icon{
+    color:#4aee18;
+}

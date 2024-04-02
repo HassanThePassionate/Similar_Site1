@@ -12,7 +12,7 @@ const Cards = () => {
     <div className={style.wrapper}>
       <div className="container">
         <div className="flex items-center justify-between mt-[40px]">
-          <div className="w-[50%]">
+          <div className="w-[50%] pl-[20px]">
             <h2 className=" text-[40px] tracking-[0.5px] leading-[44px] font-semibold mb-[16px]">
               Google Play Console
             </h2>
