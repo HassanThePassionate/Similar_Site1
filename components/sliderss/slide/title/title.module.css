@@ -1,0 +1,21 @@
+.title {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.link {
+  background-color: #e9f8f3;
+  color: #007f59;
+  border-radius: 5px;
+  padding: 0 6.5px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 0.8125rem;
+  margin-top: 5px;
+}
+.link:hover {
+  background-color: #e9f8f3;
+  color: #007f59;
+}

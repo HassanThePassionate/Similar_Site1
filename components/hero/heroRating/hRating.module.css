@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.source_box {
+  padding: 0.125rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background-color: rgb(243 244 246);
+  border-radius: 9999px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.source {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.social {
+  margin-left: 10px;
+  fill: rgb(156 163 175);
+}
+.social:hover {
+  fill: rgb(107 114 128);
+}

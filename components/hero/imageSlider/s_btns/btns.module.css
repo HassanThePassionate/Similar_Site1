@@ -1,0 +1,31 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+.dot {
+  border-radius: 100%;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+
+.dot::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #0c9ef0;
+  border-radius: 100%;
+}
+
+.active {
+  border: 2px solid #0c9ef0;
+}

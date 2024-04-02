@@ -10,6 +10,14 @@ const nextConfig = {
         protocol: "https",
         hostname: "mmbiz.qpic.cn",
       },
+      {
+        protocol: "https",
+        hostname: "d4.alternativeto.net",
+      },
+      {
+        protocol: "https",
+        hostname: "static.semrush.com",
+      },
     ],
   },
 };

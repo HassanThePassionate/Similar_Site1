@@ -1,0 +1,36 @@
+.list {
+  align-items: center;
+  display: flex;
+  font-size: 13.6px;
+  list-style: none;
+  padding-top: 50px;
+}
+.iteam,
+.nui_iteam {
+  display: flex;
+}
+.iteam a {
+  align-items: center;
+  column-gap: 0.25rem;
+  font-size: 13.6px;
+  display: flex;
+  color: black;
+}
+.iteam a:hover {
+  text-decoration: underline;
+}
+.iteam a img {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 16px;
+  justify-content: center;
+  width: 16px;
+}
+.inner_iteam {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  display: flex;
+  font-size: 13.6px;
+}

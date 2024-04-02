@@ -1,0 +1,22 @@
+.circle {
+  width: 244px;
+  height: 244px;
+  bottom: -70px;
+  right: -50px;
+  background: rgb(220, 200, 20);
+  border-radius: 50%;
+  position: absolute;
+}
+.img {
+  position: absolute;
+  bottom: 20px;
+  right: 70px;
+  border-width: 8px;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 5px;
+  background: #f6f7f9;
+  box-shadow: 0 9px 10px rgba(27, 38, 83, 0.12);
+  z-index: 1;
+}

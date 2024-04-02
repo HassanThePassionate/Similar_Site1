@@ -1,0 +1,7 @@
+.img {
+  border-radius: var(--borderRadius);
+  box-shadow: 0 0 10px rgba(0, 58, 91, 0.2);
+  line-height: 0;
+  overflow: hidden;
+  filter: contrast(0.9);
+}

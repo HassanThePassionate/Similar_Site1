@@ -30,3 +30,29 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "gdsage";
+  src: url("../fonts/gdsage/GDSageBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gdsherpa";
+  src: url("../fonts/gdsherps/gdsherpa.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gdsherpa";
+  src: url("../fonts/gdsherps/gdsherpamedium.ttf");
+  font-weight: medium;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gdsherpa";
+  src: url("../fonts/gdsherps/Sherpa-BoldWeb.ttf");
+  font-weight: bold;
+  font-style: normal;
+}

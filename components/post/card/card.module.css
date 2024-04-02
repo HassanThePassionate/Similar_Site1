@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 2rem;
+  border: 1px solid rgb(181, 186, 196);
+  border-radius: 16px;
+}
+
+.wrap {
+  display: flex;
+  gap: 80px;
+}
+
+.left_side {
+  flex: 1;
+}
