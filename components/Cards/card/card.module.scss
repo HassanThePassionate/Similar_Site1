@@ -18,7 +18,8 @@
     pointer-events: none;
     position: absolute;
     top: 0;
-  
+    box-shadow: 0 14px 25px 0 rgba(60, 64, 67, 0.08),
+      0 4px 13px 0 rgba(60, 64, 67, 0.12);
     width: 100%;
   }
   .box:hover {
