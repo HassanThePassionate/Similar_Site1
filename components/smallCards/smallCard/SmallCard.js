@@ -9,7 +9,7 @@ import Arrowbtn from "@/components/arrowBtn/Arrowbtn";
 const SmallCard = () => {
   return (
     <div className="container">
-      <div className="w-[50%] pb-[40px]">
+      <div className="w-[50%] pb-[40px] pl-[20px]">
         <h2 className=" text-[40px] tracking-[0.5px] leading-[44px] font-semibold mb-[16px] flex items-center gap-[8px]">
           Google Play Console
           <Arrowbtn />

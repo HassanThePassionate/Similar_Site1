@@ -2,7 +2,8 @@ import Link from "next/link";
 import style from "./gameCards.module.scss";
 import Image from "next/image";
 import { IoIosList } from "react-icons/io";
-import SliderHeading from "../slider/slider_heading/SliderHeading";
+import SliderHeading from "./slider_heading/SliderHeading";
+
 const GameCards = () => {
   return (
     <div className="container p-[32px] ">

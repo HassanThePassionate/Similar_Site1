@@ -8,7 +8,7 @@ import Arrowbtn from "@/components/arrowBtn/Arrowbtn";
 const SimilarCard = () => {
   return (
     <div className="container">
-      <div className="w-[50%] pb-[40px] pt-[40px] pl-[16px]">
+      <div className="w-[50%] pb-[40px] pt-[40px] pl-[20px]">
         <h2 className=" text-[40px] tracking-[0.5px] leading-[44px] font-semibold mb-[16px] flex items-center gap-[8px]">
           Google Play Console
           <Arrowbtn />
