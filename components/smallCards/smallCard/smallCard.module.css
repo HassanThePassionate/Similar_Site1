@@ -1,0 +1,30 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(6, 172px);
+  gap: 28px;
+  padding-bottom: 40px;
+}
+.list li a {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 172px;
+  overflow-wrap: break-word;
+  padding: 24px 16px 16px;
+  position: relative;
+  text-decoration: none;
+  transform: translateY(5px);
+  transition: transform 0.2s ease-in;
+}
+.list li a .icon {
+  margin-top: auto;
+}
+.list li a h3 {
+  font-family: "eculid";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: normal;
+}
+.list li a:hover {
+  transform: translateY(0);
+}/*# sourceMappingURL=smallCard.module.css.map */
