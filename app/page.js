@@ -1,4 +1,5 @@
 import Cards from "@/components/Cards/Cards";
+import GameCards from "@/components/gameCards/GameCards";
 import Navbar from "@/components/navbar/Navbar";
 import Sliders from "@/components/similarSlider/slide/sliders/Sliders";
 
@@ -15,7 +16,7 @@ const page = () => {
       <SmallCard />
       <SimilarCard />
       <Sliders />
-      <Slider />
+      <GameCards />
       <Slider />
     </div>
   );

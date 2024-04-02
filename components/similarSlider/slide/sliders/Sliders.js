@@ -8,6 +8,7 @@ import { Navigation } from "swiper/modules";
 import Title from "../title/Title";
 import Tags from "../tags/Tags";
 import Buttons from "@/components/Cards/button/Buttons";
+import Arrowbtn from "@/components/arrowBtn/Arrowbtn";
 
 const Sliders = () => {
   const [swiperInstance, setSwiperInstance] = useState(null);
@@ -17,7 +18,10 @@ const Sliders = () => {
       <div className="container p-[32px]">
         <div className="flex items-center justify-between mt-[40px]">
           <div>
-            <h2 className=" text-2xl font-semibold">Google Play Console</h2>
+            <h2 className=" text-[40px] tracking-[0.5px] leading-[44px] font-semibold mb-[16px] flex items-center gap-[8px]">
+              Google Play Console
+              <Arrowbtn />
+            </h2>
             <p className="mt-[10px]">
               Troubleshoot before launch, ensure technical performance, maximize
               your reach, and more with dozens of built-in features.

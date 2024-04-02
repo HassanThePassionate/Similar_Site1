@@ -4,12 +4,14 @@ import Rating from "../Rating/Rating";
 import { data } from "../../../constant/Similardata";
 import style from "./SimilarCard.module.css";
 import Link from "next/link";
+import Arrowbtn from "@/components/arrowBtn/Arrowbtn";
 const SimilarCard = () => {
   return (
     <div className="container">
       <div className="w-[50%] pb-[40px] pt-[40px] pl-[16px]">
-        <h2 className=" text-[40px] tracking-[0.5px] leading-[44px] font-semibold mb-[16px]">
+        <h2 className=" text-[40px] tracking-[0.5px] leading-[44px] font-semibold mb-[16px] flex items-center gap-[8px]">
           Google Play Console
+          <Arrowbtn />
         </h2>
         <p className="mt-[10px] text-base tracking-[0.5px] font-normal ">
           Troubleshoot before launch, ensure technical performance, maximize
