@@ -1,6 +1,8 @@
-.cards{
+.row_group {
     display: grid;
-    grid-template-columns:  repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 32px;
-    margin-bottom: 20px;
-}
+  }
+  .wrapper{
+    padding: 40px 0 80px;
+  }
