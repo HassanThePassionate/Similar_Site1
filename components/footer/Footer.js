@@ -31,7 +31,7 @@ const Footer = () => {
               </p>
               <Link
                 href="#"
-                className="flex items-center gap-[4px] text-sm font-semibold tracking-[2px] uppercase text-[#4aee18] hover:text-[#81d169] transition-all "
+                className="flex items-center gap-[4px] text-sm font-semibold tracking-[2px] uppercase text-[#00ad8e] hover:text-[#51963c] transition-all "
               >
                 Learn More About Capterra
                 <IoMdArrowRoundForward size={20} />
@@ -89,7 +89,7 @@ const Footer = () => {
                   <Link
                     href="#"
                     style={{
-                      color: "#4aee18",
+                      color: "#00ad8e",
                     }}
                   >
                     VENDOR LOGIN
