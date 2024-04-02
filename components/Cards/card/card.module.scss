@@ -8,6 +8,7 @@
     z-index: auto;
     transition: all 0.2s ease-out;
     margin-top: 20px;
+    cursor: pointer;
   }
   .box::before {
     content: "";
@@ -66,36 +67,62 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    display: none;
   }
-  .buttons a {
-    border: 2px solid #202124;
-    border-radius: 96px;
-    color: #000;
-    display: inline-block;
-    height: 48px;
-    letter-spacing: 0.5px;
-    line-height: 44px;
-    min-width: 36px;
-    outline: none;
-    padding: 0 24px 0 16px;
-    text-align: center;
-    width: auto;
-    vertical-align: middle;
-    transition: all 0.2s ease;
+  // .buttons a {
+  //   border: 2px solid #202124;
+  //   border-radius: 96px;
+  //   color: #000;
+  //   display: inline-block;
+  //   height: 48px;
+  //   letter-spacing: 0.5px;
+  //   line-height: 44px;
+  //   min-width: 36px;
+  //   outline: none;
+  //   padding: 0 24px 0 16px;
+  //   text-align: center;
+  //   width: auto;
+  //   vertical-align: middle;
+  //   transition: all 0.2s ease;
+  // }
+  // .buttons a::before {
+  //   bottom: 0;
+  //   content: "";
+  //   display: block;
+  //   left: 0;
+  //   position: absolute;
+  //   right: 0;
+  //   top: 0;
+  //   z-index: 1;
+  // }
+  // .buttons a:hover {
+  //   background-color: #202124;
+  //   border-color: #202124;
+  //   color: #fff;
+  // }
+  .wrap{
+    margin-left: -12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    margin-top: 1.25rem;
+    line-clamp: 1;
+    width: 100%;
+    .review{
+      padding: 0.25rem 0.5rem;
+      background-color: rgb(243 244 246);
+      border-radius: 1.5rem;
+      min-width: fit-content;
+      display: flex;
+      align-items: center;
+      margin-left: 0.25rem;
+      gap: 3px;
+    }
+    .review_text{
+      display: flex;
+      align-items: center;
+      text-align: right;
+      line-clamp: 1;
+    }
   }
-  .buttons a::before {
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
-  }
-  .buttons a:hover {
-    background-color: #202124;
-    border-color: #202124;
-    color: #fff;
-  }
-  
