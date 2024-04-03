@@ -77,7 +77,7 @@ const Hero = () => {
               <div className="flex justify-between items-center py-[20px] px-[8px] hover:underline border-[#d4dbe0] border-b-[1px]">
                 <Link
                   href="#"
-                  className="text-xl font-medium text-[#111]  cursor-pointer"
+                  className="text-xl font-medium text-[#111]  cursor-pointer relative overflow-hidden w-full text-ellipsis whitespace-nowrap "
                 >
                   Allow indexing of all pages in WordPress
                 </Link>
@@ -92,7 +92,7 @@ const Hero = () => {
               <div className="flex justify-between items-center py-[20px] px-[8px] hover:underline border-[#d4dbe0] border-b-[1px]">
                 <Link
                   href="#"
-                  className="text-xl font-medium text-[#111]  cursor-pointer"
+                  className="text-xl font-medium text-[#111]  cursor-pointer relative overflow-hidden w-full text-ellipsis whitespace-nowrap "
                 >
                   Sign in to WordPress
                 </Link>
@@ -107,7 +107,7 @@ const Hero = () => {
               <div className="flex justify-between items-center py-[20px] px-[8px] hover:underline border-[#d4dbe0] border-b-[1px]">
                 <Link
                   href="#"
-                  className="text-xl font-medium text-[#111]  cursor-pointer"
+                  className="text-xl font-medium text-[#111]  cursor-pointer relative overflow-hidden w-full text-ellipsis whitespace-nowrap "
                 >
                   Secure my website
                 </Link>
@@ -122,7 +122,7 @@ const Hero = () => {
               <div className="flex justify-between items-center py-[20px] px-[8px] hover:underline border-[#d4dbe0] border-b-[1px]">
                 <Link
                   href="#"
-                  className="text-xl font-medium text-[#111]  cursor-pointer"
+                  className="text-xl font-medium text-[#111]  cursor-pointer relative overflow-hidden w-full text-ellipsis whitespace-nowrap "
                 >
                   Add categories to my WordPress site
                 </Link>
@@ -137,7 +137,7 @@ const Hero = () => {
               <div className="flex justify-between items-center py-[20px] px-[8px] hover:underline border-[#d4dbe0]">
                 <Link
                   href="#"
-                  className="text-xl ffont-medium text-[#111]  cursor-pointer"
+                  className="text-xl ffont-medium text-[#111]  cursor-pointe relative overflow-hidden w-full text-ellipsis whitespace-nowrap r"
                 >
                   Add tags to my WordPress site
                 </Link>
