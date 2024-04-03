@@ -11,6 +11,7 @@
   white-space: nowrap;
   width: -moz-fit-content;
   width: fit-content;
+  margin-right: 85px;
 }
 
 .tab:hover {
