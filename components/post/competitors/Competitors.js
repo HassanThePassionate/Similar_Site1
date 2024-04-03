@@ -27,7 +27,8 @@ const Competitors = () => {
             nextEl: "#nexts",
             prevEl: "#prevs",
           }}
-          className="mySwiper max-w-[800px] "
+          className="mySwiper max-w-[800px]"
+          style={{ padding: "0 10px" }}
         >
           {data.map((elm, id) => (
             <SwiperSlide key={id}>
